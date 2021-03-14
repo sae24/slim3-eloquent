@@ -1,0 +1,27 @@
+{
+    "name": "saecode/slim3-eloquent",
+    "description": "Simple Slim Framework 3 with eloquent.",
+    "license": "BSD-3-Clause",
+    "type": "project",
+    "keywords": ["slim-framework", "eloquent"],
+    "authors": [
+        {
+            "name": "Saepuloh",
+            "email": "akh.saepuloh@gmail.com",
+            "homepage": "http://saecode.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/src"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/twig-view": "^2.0",
+        "slim/flash": "^0.1.0",
+        "monolog/monolog": "^1.13",
+        "twig/extensions": "*",
+        "illuminate/database": "^8.6"
+    }
+}
