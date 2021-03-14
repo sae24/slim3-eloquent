@@ -1,2 +1,2 @@
 # slim3-eloquent
-slim3 framework with eloquent
+This is a simple project for Slim 3 that includes Eloquent.
